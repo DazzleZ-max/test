@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SAJMaui.CustomControls.ShowData">
+    <HorizontalStackLayout>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="productID"/>
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="productName" />
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="keysToFind" />
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="category1"/>
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="category2"/>
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="category3"/>
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="category4"/>
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="category5"/>
+        </Border>
+        <Border BackgroundColor="Red" StrokeThickness="4">
+            <Label x:Name="category6"/>
+        </Border>
+    </HorizontalStackLayout>
+</ContentView>

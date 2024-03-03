@@ -22,5 +22,8 @@ public static class MauiProgram
 		return builder.Build();
 	}
 
-	public static void test() { }
+	public static void test() {
+
+		int test = 0;
+	}
 }
